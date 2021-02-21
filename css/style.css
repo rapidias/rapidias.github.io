@@ -10,13 +10,21 @@ body {
     font-size: 16px;
     line-height: 1.7;
     color: #eee;
-    background-color: #2a2a2a;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Roboto', sans-serif;
 }
+h1.title-main{
+	font-size: 3rem;
+	color: #f00;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
 h3{
-    color: #0FF;
+	width: 100%;
+	text-align: center;
+    color: #000;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
@@ -46,26 +54,7 @@ main {
     flex-wrap: wrap;
     margin-bottom: 25px;
 }
-/* .col-two{
-    width: 48%;
-    position: relative;
-}
-.col-three{
-    width: 30%;
-    position: relative;
-}
-.col-four{
-    width: 23%;
-    position: relative;
-}
-.col-five{
-    width: 18%;
-    position: relative;
-}
-.col-six{
-    width: 15%;
-    position: relative;
-} */
+
 .col{
     width: 100%;
     position: relative;
@@ -89,8 +78,8 @@ header {
     position: fixed;
     width: 100%;
     /* box-shadow: 0 2px 10px 4px #0FF; */
-    border-bottom: 3px solid #0FF;
-    background-color: #2a2a2a;
+    border-bottom: 3px solid #f00;
+    background-color: #f00;
     z-index: 2;
 }
 header nav{
@@ -371,21 +360,7 @@ main section:first-of-type .header:before{
     transform: translate(-50%, -50%);
 }
 
-/*** Webelinx ***/
-.webelinx p.project-title{
-    width: calc(100% - 20px);
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 15px;
-    line-height: 1.2em;
-    position: absolute;
-    bottom: 8px;
-    left: 10px;
-}
-/****Other projects****/
-.other-projects .col.short{
-    height: 250px;
-    overflow: hidden;
-}
+
 @media only screen and (min-width: 1px) {
     .col-6,
     .col-5,

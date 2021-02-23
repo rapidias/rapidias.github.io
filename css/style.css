@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Roboto', sans-serif;
 }
 h1.title-main{
-	font-size: 5rem;
+	font-size: 7rem;
 	color: #f00;
 	display: block;
 	width: 100%;
@@ -51,7 +51,7 @@ video{
 main {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 80px;
+    padding-top: 25px;
 }
 .sidebar{
     width: 100%;

@@ -10,6 +10,8 @@ body {
     font-size: 16px;
     line-height: 1.7;
     color: #eee;
+background-color: #97d9e1;
+background-image: linear-gradient(0deg, #97d9e1 0%, #eeeeee 100%);
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Roboto', sans-serif;
@@ -88,6 +90,11 @@ main {
     overflow: hidden;
     height: 250px;
     display: block;
+	box-shadow: 0 6px 18px rgb(0, 0, 0, .3);
+	transition: all .1s ease-in-out;
+}
+.gallery-col a:hover {
+	box-shadow: 0 3px 3px rgb(0, 0, 0, .3);
 }
 /*** Header & Navigation ***/
 header {

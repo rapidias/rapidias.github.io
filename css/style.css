@@ -30,6 +30,7 @@ h3.subtitle{
 	width: 100%;
 	text-align: center;
 	margin: 25px 0;
+	font-size: 1.5rem;
 }
 h3.subtitle > span{
 	font-weight: 900;

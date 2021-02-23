@@ -73,6 +73,11 @@ main {
     padding: 5px 10px;
     text-decoration: none;
 }
+.gallery-col a {
+    overflow: hidden;
+    height: 250px;
+    display: block;
+}
 /*** Header & Navigation ***/
 header {
     position: fixed;
@@ -337,12 +342,12 @@ main section:first-of-type .header:before{
 .to-top {
     width: 40px;
     height: 40px;
-    background-color: #2f2f2f;
-    border: 3px solid #4ce7e7;
+    background-color: #fff;
+    border: 3px solid #f00;
     position: fixed;
     right: 30px;
     top: 75vh;
-    box-shadow: 0 0 20px 3px #0FF;
+    box-shadow: 0 0 20px 3px #f00;
     z-index: -2;
     opacity: 0;
     transition: opacity .3s cubic-bezier(0.6, -0.28, 0.735, 0.045), z-index 2s;
@@ -354,7 +359,7 @@ main section:first-of-type .header:before{
 }
 .to-top i{
     position: absolute;
-    color: #0ff;
+    color: #f00;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

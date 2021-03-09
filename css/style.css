@@ -33,6 +33,9 @@ h3.subtitle{
 	margin: 15px 0;
 	font-size: 1.5rem;
 }
+.location h3.subtitle {
+    line-height: 1.3;
+}
 h3.subtitle.sale{
     font-size: 2rem;
     background-color: #fff;
